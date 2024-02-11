@@ -18,16 +18,17 @@ body {
 .left-container, .right-container {
     flex: 1; /* Let both containers take equal space */
     padding: 20px; /* Add padding if necessary */
-    background-color: white;
+    background-color: lightblue;
 }
 .right-container {
-    flex: 3; /* Let the right container take equal space */
+    flex: 4; /* Let the right container take equal space */
     padding: 20px; /* Add padding if necessary */
     background-color: white;
    
 }
 .left-container {
-    border-right: 2px solid lightblue; /* Add a border between the containers */
+    border-right: 2px solid rgb(15, 15, 15); /* Add a border between the containers */
+    text-align: middle;
 }
 
 .profile-picture {
@@ -35,6 +36,7 @@ body {
     height: 150px;
     border-radius: 50%;
     margin-bottom: 20px;
+    margin-right: auto;
 }
 
 h1, h2 {

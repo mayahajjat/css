@@ -1,0 +1,50 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+    display: flex;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+}
+
+.left-container, .right-container {
+    flex: 1; /* Let both containers take equal space */
+    padding: 20px; /* Add padding if necessary */
+    background-color: white;
+}
+.right-container {
+    flex: 3; /* Let the right container take equal space */
+    padding: 20px; /* Add padding if necessary */
+    background-color: white;
+   
+}
+.left-container {
+    border-right: 2px solid lightblue; /* Add a border between the containers */
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+ul {
+    padding-left: 20px;
+}
